@@ -135,14 +135,101 @@ import 'dart:io';
 //   print('$a / $b = $hasilPembagian');
 // }
 
-void main() {
-  stdout.write('Masukkan nama depan anda : ');
-  String? namaDepan = stdin.readLineSync();
+// void main() {
+//   stdout.write("Masukkan nama depan anda : ");
+//   String? namaDepan = stdin.readLineSync();
 
-  stdout.write('Masukkan nama belakang anda : ');
-  String? namaBelakang = stdin.readLineSync();
+//   stdout.write("masukkan nama belakang anda : ");
+//   String? namaBelakang = stdin.readLineSync();
 
-  String fullname = '$namaDepan $namaBelakang';
+//   String fullName = ('$namaDepan $namaBelakang');
 
-  print('nama lengkap anda adalah = $fullname ');
+//   print('Nama lengkap anda adalah : $fullName');
+// }
+
+// void main() {
+//   var IsTheBahdar = true;
+//   IsTheBahdar ? print("Bukan") : print("Bahdar");
+// }
+// void main() {
+//   var buttonpushed = 4;
+
+//   switch (buttonpushed) {
+//     case 1:
+//       {
+//         print('Matikan Tv');
+//         break;
+//       }
+//     case 2:
+//       {
+//         print('Turunkan Volume TV');
+//         break;
+//       }
+//     case 3:
+//       {
+//         print('Tingkatkan Volume Tv');
+//         break;
+//       }
+//     case 4:
+//       {
+//         print('Matikan Suara Tv');
+//         break;
+//       }
+//     default:
+//       {
+//         print('Tidak Terjadi apa apa');
+//       }
+//   }
+// }
+
+// void main() {
+//   stdout.write('Masukkan nama depan anda = ');
+//   String? namaDepan = stdin.readLineSync();
+
+//   stdout.write('Masukkan nama belakang anda = ');
+//   String? namaBelakang = stdin.readLineSync();
+
+//   String Fullname = ('$namaDepan $namaBelakang');
+//   print("Nama lengkap anda adalah = $Fullname ");
+// }
+// void main() {
+//   int A = 15;
+//   int B = 10;
+
+//   int hasilPerkalian = A * B;
+//   print('$A * $B = $hasilPerkalian');
+
+//   int hasilPenjumlahan = A + B;
+//   print('$A+$B= $hasilPenjumlahan');
+
+//   int hasilPenguranagn = A - B;
+//   print('$A-$B=$hasilPenguranagn');
+
+//   double hasilPembagian = A / B;
+//   print('$A/$B=$hasilPembagian');
+// }
+
+// class Segitiga {
+//   double alas;
+//   double tinggi;
+
+//   Segitiga(this.alas, this.tinggi);
+
+//   double hitungLuas() {
+//     return 0.5 * alas * tinggi;
+//   }
+// }
+
+// void main(List<String> args) {
+//   Segitiga segitiga = Segitiga(20.0, 30.0);
+//   print("Luas Segitiga: ${segitiga.hitungLuas()}");
+// }
+
+import 'lingkaran.dart';
+
+void main(List<String> args) {
+  Lingkaran lingkaran = Lingkaran();
+  lingkaran.setRuas(-7.0); // Nilai negatif akan diubah menjadi positif
+  print("Ruas Lingkaran: ${lingkaran.getRuas()}");
+  print("Luas Lingkaran: ${lingkaran.hitungLuas()}");
 }

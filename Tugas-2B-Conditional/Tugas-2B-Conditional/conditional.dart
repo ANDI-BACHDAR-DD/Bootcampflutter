@@ -150,3 +150,21 @@ import 'dart:io';
 //     print('Input tanggal atau bulan tidak valid.');
 //   }
 // }
+
+import 'dart:io';
+
+void main() {
+  // Meminta input dari pengguna
+  stdout.write('Apakah Anda ingin menginstall aplikasi? (Y/T): ');
+  String? input = stdin.readLineSync()?.toLowerCase();
+
+  // Menggunakan ternary untuk menentukan output
+  String hasil = (input == 'T')
+      ? 'Anda akan menginstall aplikasi dart'
+      : (input == 'T')
+          ? 'Aborted'
+          : 'Input tidak valid';
+
+  // Menampilkan hasil
+  print(hasil);
+}
