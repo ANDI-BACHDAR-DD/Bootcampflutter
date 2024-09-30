@@ -151,20 +151,16 @@ import 'dart:io';
 //   }
 // }
 
+//
+
 import 'dart:io';
 
-void main() {
-  // Meminta input dari pengguna
-  stdout.write('Apakah Anda ingin menginstall aplikasi? (Y/T): ');
-  String? input = stdin.readLineSync()?.toLowerCase();
+void main(List<String> args) {
+  stdout.write('masukkan nama Depan anda = ');
+  String? namaDepan = stdin.readLineSync();
+  stdout.write('masukkan nama Belakang anda = ');
+  String? namaBelakang = stdin.readLineSync();
+  String fullname = ('$namaDepan $namaBelakang');
 
-  // Menggunakan ternary untuk menentukan output
-  String hasil = (input == 'T')
-      ? 'Anda akan menginstall aplikasi dart'
-      : (input == 'T')
-          ? 'Aborted'
-          : 'Input tidak valid';
-
-  // Menampilkan hasil
-  print(hasil);
+  print('Nama Lengkap Anda Adalah = $fullname');
 }

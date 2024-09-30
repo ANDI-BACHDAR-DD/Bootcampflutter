@@ -225,11 +225,14 @@ import 'dart:io';
 //   print("Luas Segitiga: ${segitiga.hitungLuas()}");
 // }
 
-import 'lingkaran.dart';
+import 'dart:io';
 
 void main(List<String> args) {
-  Lingkaran lingkaran = Lingkaran();
-  lingkaran.setRuas(-7.0); // Nilai negatif akan diubah menjadi positif
-  print("Ruas Lingkaran: ${lingkaran.getRuas()}");
-  print("Luas Lingkaran: ${lingkaran.hitungLuas()}");
+  stdout.write('masukkan nama Depan anda = ');
+  String? namaDepan = stdin.readLineSync();
+  stdout.write('masukkan nama Belakang anda = ');
+  String? namaBelakang = stdin.readLineSync();
+  String fullname = ('$namaDepan $namaBelakang');
+
+  print('Nama Lengkap Anda Adalah = $fullname');
 }

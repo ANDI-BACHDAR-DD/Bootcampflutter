@@ -61,23 +61,35 @@
 // Variabel firstName dan lastName menyimpan input dari pengguna, dan kemudian digabungkan dalam variabel fullName.
 // Hasilnya adalah nama lengkap yang diinput akan ditampilkan di layar.
 
-void main() {
-  int a = 5;
-  int b = 10;
+// void main() {
+//   int a = 5;
+//   int b = 10;
 
-  // Perkalian
-  int hasilPerkalian = a * b;
-  print('$a * $b = $hasilPerkalian');
+//   // Perkalian
+//   int hasilPerkalian = a * b;
+//   print('$a * $b = $hasilPerkalian');
 
-  // Penjumlahan
-  int hasilPenjumlahan = a + b;
-  print('$a + $b = $hasilPenjumlahan');
+//   // Penjumlahan
+//   int hasilPenjumlahan = a + b;
+//   print('$a + $b = $hasilPenjumlahan');
 
-  // Pengurangan
-  int hasilPengurangan = a - b;
-  print('$a - $b = $hasilPengurangan');
+//   // Pengurangan
+//   int hasilPengurangan = a - b;
+//   print('$a - $b = $hasilPengurangan');
 
-  // Pembagian
-  double hasilPembagian = a / b;
-  print('$a / $b = $hasilPembagian');
+//   // Pembagian
+//   double hasilPembagian = a / b;
+//   print('$a / $b = $hasilPembagian');
+// }
+
+import 'dart:io';
+
+void main(List<String> args) {
+  stdout.write('masukkan nama Depan anda = ');
+  String? namaDepan = stdin.readLineSync();
+  stdout.write('masukkan nama Belakang anda = ');
+  String? namaBelakang = stdin.readLineSync();
+  String fullname = ('$namaDepan $namaBelakang');
+
+  print('Nama Lengkap Anda Adalah = $fullname');
 }
