@@ -1,8 +1,9 @@
+
 class Anggota {
   String nama;
   String idAnggota;
   String alamat;
-
+  //Anggota({required this.nama, required this.alamat});
   Anggota(this.nama, this.idAnggota, this.alamat);
 
   void daftarAnggota() {
