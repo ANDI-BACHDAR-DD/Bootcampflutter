@@ -46,6 +46,7 @@ class HomeScreen extends StatelessWidget {
             width: 538,
             height: 511,
             child: PageView(
+              scrollDirection: Axis.horizontal,
               children: [
                 NewsCard(
                   image: 'assets/images/Image_News_1.png',
@@ -54,7 +55,7 @@ class HomeScreen extends StatelessWidget {
                   category: 'TECHNOLOGY',
                 ),
                 NewsCard(
-                  image: 'assets/images/Image_News_2.png',
+                  image: 'assets/images/Image_News_1.png',
                   title: 'Startup raises \$54 million',
                   category: 'TECHNOLOGY',
                 ),
