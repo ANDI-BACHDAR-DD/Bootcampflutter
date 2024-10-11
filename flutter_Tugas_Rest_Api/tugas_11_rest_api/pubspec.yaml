@@ -75,11 +75,15 @@ flutter:
     - assets/image/image_News_4.png
     - assets/image/image_Login.png
     - assets/image/image_Singup.png
+    - assets/image/image_news.png
+    - assets/image/Bg_Image_News.png
     - assets/icon/icon_arrow_redo.png
     - assets/icon/icon_arrow_right.png
     - assets/icon/icon_bookmark.png
     - assets/icon/icon_menu.png
     - assets/icon/icon_Google.png
+    - assets/icon/icon_samuel.png
+    - assets/icon/icon_chat.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
