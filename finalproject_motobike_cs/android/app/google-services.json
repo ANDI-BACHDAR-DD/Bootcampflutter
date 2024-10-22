@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "392198872561",
+    "project_id": "final-projectmotobike",
+    "storage_bucket": "final-projectmotobike.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392198872561:android:3db7d06bead251e023f850",
+        "android_client_info": {
+          "package_name": "com.example.finalproject_motobike_cs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEowya6ko0ihjQvjhOQoGIO3Dhf7RJuMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392198872561:android:fbe7c67f55d6b2cf23f850",
+        "android_client_info": {
+          "package_name": "com.example.finalproject_mototbike"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEowya6ko0ihjQvjhOQoGIO3Dhf7RJuMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

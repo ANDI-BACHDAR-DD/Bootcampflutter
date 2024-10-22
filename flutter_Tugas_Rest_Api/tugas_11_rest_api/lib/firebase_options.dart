@@ -61,4 +61,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'register-and-login-page-d64a1.appspot.com',
     measurementId: 'G-SNJBPEQTW4',
   );
+
 }

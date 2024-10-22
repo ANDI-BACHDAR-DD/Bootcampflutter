@@ -43,12 +43,10 @@ class _LoginScreenState extends State<LoginScreen> {
       );
 
       // Navigasi ke halaman home
-      Navigator.pushReplacement(
+      Navigator.pushAndRemoveUntil(
         context,
-        MaterialPageRoute(
-          builder: (context) =>
-              const HomePage(), // Ganti dengan halaman home yang sesuai
-        ),
+        MaterialPageRoute(builder: (context) => const HomePage()),
+        (route) => false,
       );
     } on FirebaseAuthException catch (e) {
       // Tangani error jika login gagal

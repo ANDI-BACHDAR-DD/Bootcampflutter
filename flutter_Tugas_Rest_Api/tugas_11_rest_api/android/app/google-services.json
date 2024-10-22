@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1028740521715",
+    "project_id": "register-and-login-page-d64a1",
+    "storage_bucket": "register-and-login-page-d64a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028740521715:android:f71143cdf962e5656aa186",
+        "android_client_info": {
+          "package_name": "com.example.tugas_11_rest_api"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYIQMwldHP-m7mVy2fpyA7zsFZ-uTHlDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

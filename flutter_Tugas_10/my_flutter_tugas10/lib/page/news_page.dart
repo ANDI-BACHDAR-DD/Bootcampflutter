@@ -121,10 +121,11 @@ class ArticlePage extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
-            Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => HomePage())); // Action tombol kembali
+            Navigator.pushAndRemoveUntil(
+              context,
+              MaterialPageRoute(builder: (context) => HomePage()),
+              (route) => false,
+            ); // Action tombol kembali
           },
         ),
         backgroundColor: Colors.transparent,

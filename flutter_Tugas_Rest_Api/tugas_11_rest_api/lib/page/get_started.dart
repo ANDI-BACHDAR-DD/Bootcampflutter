@@ -15,13 +15,19 @@ class GetStarted extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 30),
           child: Column(
             children: [
-              Container(
-                margin: const EdgeInsets.only(top: 86),
-                width: double.infinity,
-                height: 330,
-                decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/image/image_news.png'))),
+              // Container(
+              //   margin: const EdgeInsets.only(top: 86),
+              //   width: double.infinity,
+              //   height: 330,
+              //   decoration: const BoxDecoration(
+              //       image: DecorationImage(
+              //           image: AssetImage('assets/image/image_news.png'))),
+              // ),
+              SizedBox(
+                height: 150,
+                width: 150,
+                child: Image.network(
+                    'https://firebasestorage.googleapis.com/v0/b/final-projectmotobike.appspot.com/o/bike%2Fenfielding_pro.png?alt=media&token=b3449056-a097-4866-8556-46fe9e35b76f'),
               ),
               SizedBox(
                 height: 37,
